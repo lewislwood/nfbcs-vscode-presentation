@@ -1,4 +1,9 @@
 # NFB Cs Vs Code Presentation
 
-This repository contains the materials used by me to present and introduce vs Code. 
-Here you can copy it and see all that I did not get to as well.
+This repository contains all the files and references I used in the presentation for NFB CS.
+
+I will be updating as well in the weeks following.
+I could not get the planned site up and running.
+Appernetly docker changed the kubernetes rules for my server recently.
+Will resolve and have it implemented.
+Check back here for links.

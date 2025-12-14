@@ -1,4 +1,4 @@
-FROM node:24-alpine AS build_image
+nFROM node:24-alpine AS build_image
 ARG node_env=production, 
 
 WORKDIR /usr/src/app
