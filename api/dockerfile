@@ -1,0 +1,21 @@
+FROM node:24-alpine AS build_image
+ARG node_env=production, 
+
+WORKDIR /usr/src/app
+
+COPY package.json . 
+
+RUN npm i
+
+COPY . .
+ 
+# RUN npm run build
+
+RUN npm prune 
+
+EXPOSE 3000
+
+ ENTRYPOINT ["node"]
+CMD ["/usr/src/app/dist/server.js']  
+
+

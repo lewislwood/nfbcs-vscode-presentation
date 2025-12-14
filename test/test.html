@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lewis Fetch Test</title>
+</head>
+<body>
+    <h1>Lewis Fetch Test</h1>
+    <button id="fetchButton">Fetch Data</button>
+    <pre id="output"></pre>
+
+    <script>
+        // Had to test fetch for CORS issues.  This proved it.
+        
+        const url = "http://localhost:3000/articles";
+        document.getElementById('fetchButton').addEventListener('click', async () => {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                const data = await response.json();
+                document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                document.getElementById('output').textContent = 'Fetch error: ' + error.message;
+            }
+        });
+    </script>
+    
+</body>
+</html>

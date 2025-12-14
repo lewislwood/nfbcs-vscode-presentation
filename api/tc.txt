@@ -1,0 +1,64 @@
+lewis-i9$ tc -h
+lewis-i9$ tc -h
+Usage: tc <request id or name>
+ 
+Commands: 
+  tc [nameOrId]      Run the request (provide Id or name or partial name)
+                     --col 'nameOrId,nameOrId' Run single or multiple collections
+                     --col all Run all collections
+                     --col all --skip 'ColA,ColB' Run all with skip collections
+                     --fol folIdOrName Run requests in folder
+                     --reqlist 'nameOrId,nameOrId' Run selected reqs in collection
+
+  tc list            Display list of collections
+                     list <colIdOrName> Display requests in collection
+                     list env Display list of environments
+
+  tc curl [cmd]      Create Or Run a request from cURL (saved to activity)
+                     --name reqName Name of request created using cURL
+                     --col colIdOrName Save request to collection
+                     --fol folIdOrName Save request to folder
+
+Options:
+  -h, --help          Show help
+  -v, --version       Show version number
+      --debug         Show debug information
+
+      --env           Provide env to use for running request or collection
+                      By default Active environment will be used
+
+      --var-data      Provide environment variables data
+                      e.g: --var-data "name1=value1,name2=value2"
+
+      --data-file     Provide input data file relative or full path
+                      By default, file attached to Run Col UI will be used
+
+      --iterations    Number of iterations to run
+                      e.g: tc --col "name" --iterations 5
+
+      --delay         Delay between requests in ms
+                      e.g: tc --col "name" --delay 100
+
+      --concurrent    Number of concurrent requests
+                      e.g: tc --col "name" --concurrent 10
+
+      --report        Report formats: cli, csv, html, json, xml, nunit.
+                      e.g: --report "cli,json,xml"
+
+      --mask          Specify the headers to mask from the report
+                      e.g: --mask "Authorization,API-KEY"
+
+      --log           Log options: 0=AllData, 1=ReqHeaders, 2=ReqBody,
+                      6=ResHeaders, 7=ResBody, 8=Tests, 9=ScriptLogs
+                      e.g: --log "1,2,7"
+
+      --ws            Specify Workspace path to read requests data.
+                      Default is current directory
+
+      --stop-on-fail  Stop collection runner if a request is failed 
+
+Documentation:  https://docs.thunderclient.com/cli
+
+
+ 
+lewis-i9$ 

@@ -1,0 +1,38 @@
+[
+    {
+        "_id": "1f15e105-2240-4bd0-98d6-6a998b688cdb",
+        "colId": "LwTest",
+        "containerId": "",
+        "name": "Articles",
+        "url": "http://localhost:3000/articles",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2025-12-11T04:23:23.425Z",
+        "modified": "2025-12-11T04:23:23.425Z",
+        "headers": []
+    },
+    {
+        "_id": "90f2faa4-8e28-465a-8157-4f40cc02a4d9",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:3000/article/1",
+        "url": "http://localhost:3000/article/1",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2025-12-11T13:01:05.916Z",
+        "modified": "2025-12-11T13:01:05.916Z",
+        "headers": []
+    },
+    {
+        "_id": "d9acbb9a-5793-4ce9-8c48-88ba07267918",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:3000/article/2",
+        "url": "http://localhost:3000/article/2",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2025-12-11T16:16:12.531Z",
+        "modified": "2025-12-11T16:16:12.531Z",
+        "headers": []
+    }
+]

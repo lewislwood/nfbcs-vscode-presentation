@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js",
+    "server": "tsc && node server.js",
+    "build": "tsc --project tsconfig.production.json",
+    "preview": "node ./dist/server.js"
+  },
+  "keywords": [],
+  "author": "Lewis Wood",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "@types/sqlite3": "^3.1.11",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "marked": "^17.0.0",
+    "sqlite3": "^5.1.7",
+    "typescript": "^5.9.3"
+  }
+}

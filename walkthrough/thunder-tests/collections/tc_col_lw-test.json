@@ -1,0 +1,45 @@
+{
+    "_id": "128f99d7-1154-46ac-ac58-5e6f9ddbc717",
+    "colName": "lwTest",
+    "created": "2025-12-11T13:10:38.087Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e550f54b-059c-43a3-8c00-b19de19d9171",
+            "colId": "128f99d7-1154-46ac-ac58-5e6f9ddbc717",
+            "containerId": "",
+            "name": "Art1",
+            "url": "http://localhost:3000/article/1",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-12-11T13:10:38.089Z",
+            "modified": "2025-12-11T13:10:38.089Z",
+            "headers": []
+        },
+        {
+            "_id": "883f2538-e114-4e4d-9e0a-925241a506e5",
+            "colId": "128f99d7-1154-46ac-ac58-5e6f9ddbc717",
+            "containerId": "",
+            "name": "Articles",
+            "url": "http://localhost:3000/articles",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-12-11T15:28:44.451Z",
+            "modified": "2025-12-11T15:28:44.451Z",
+            "headers": []
+        },
+        {
+            "_id": "8ffda8f5-c7e4-46b4-9290-dfc5a69a8ee8",
+            "colId": "128f99d7-1154-46ac-ac58-5e6f9ddbc717",
+            "containerId": "",
+            "name": "art2",
+            "url": "http://localhost:3000/article/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2025-12-11T16:30:26.770Z",
+            "modified": "2025-12-11T16:30:26.770Z",
+            "headers": []
+        }
+    ]
+}
