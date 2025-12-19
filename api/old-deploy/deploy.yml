@@ -2,9 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nfbcs-api
-  namespace: default
+  namespace: home-lewis
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
      app: nfbcs-api
@@ -16,6 +16,7 @@ spec:
       containers:
       - name: nfbcs-api
         image: lewislwood/nfbcs-api
+        
         imagePullPolicy: Always
         resources:
           limits:
@@ -29,8 +30,8 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: nfbcs-api
-  namespace: default
+ name: nfbcs-api
+ namespace: home-lewis
 spec:
   type: NodePort
   selector:
@@ -38,8 +39,7 @@ spec:
   ports:
     - port: 3000
       protocol: TCP
+
       targetPort: 3000
       nodePort: 31030
       
-
-        

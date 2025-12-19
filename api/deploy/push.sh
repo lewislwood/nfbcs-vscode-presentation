@@ -1,3 +1,2 @@
-#=!/bin/sh
-echo Pushing Image to DockerHub
-sudo docker push lewislwood/nfbcs-api
+echo"pushing lewislwood/nfbcs-app to dockerhub"
+docker push lewislwood/nfbcs-app:latest
