@@ -92,3 +92,4 @@ const getArticleById = async (id) => {
     });
 }; // getArticleById
 exports.getArticleById = getArticleById;
+//# sourceMappingURL=db.js.map

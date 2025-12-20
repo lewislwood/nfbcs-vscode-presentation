@@ -31,3 +31,4 @@ app.get('/article/:id', async (request, response) => {
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+//# sourceMappingURL=server.js.map

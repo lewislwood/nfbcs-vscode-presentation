@@ -32,3 +32,4 @@ const testDB = async () => {
 setTimeout(() => {
     testDB();
 }, 500);
+//# sourceMappingURL=index.js.map
