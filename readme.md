@@ -1,9 +1,18 @@
 # NFB Cs Vs Code Presentation
 
-This repository contains all the files and references I used in the presentation for NFB CS.
+This repository contains all the files I planned on presenting and more.
+Goal is to aid visually impaired and blind  in using VS Code.
 
-I will be updating as well in the weeks following.
-I could not get the planned site up and running.
-Appernetly docker changed the kubernetes rules for my server recently.
-Will resolve and have it implemented.
-Check back here for links.
+Blind and visually impaired have their own set of challenges.  Having a solid understanding and a footing, will help you to find and solve issues that you may encounter in the  Vs Code IDE.
+
+## Live Site hosting this repository as an express server and a REACT page
+
+* [NFB CS Vs Code Intro](https://nfbcs.lewislwood.com)
+
+* [NFB CS API](https://nfbcsapi.lewislwood.com)
+You will have an API to test your api tools. "/articles" & "/article/#id"
+
+[*** Note the Resources & Links for helpful info.]
+[****  Will have media links later added so keep checking back]
+
+If you cloned this repository, be sure to $git pull" to get latest updates from time to time as well.
