@@ -1,3 +1,5 @@
+Thunder Client CLI Help
+TC is the CLI
 
 Usage: tc <request id or name>
  

@@ -10,4 +10,5 @@ I will show you how to get the linter to fix it for you
 Will type and fix and all that.
 
 [(is this valid)]
+
 ### Jumped a heading
