@@ -12,7 +12,7 @@ Above command will clone the repository to your computer.Requires git installed.
 
 Individual articles can be copied/downloaded below:
 
-* [Vs-Code-Intro.md](<<https://raw.github.com/lewislwood/nfbcs-vscode-presentation/master/api/src/articles/md/Vs-Code-Intro.md>)
+* [Vs-Code-Intro.md](https://raw.github.com/lewislwood/nfbcs-vscode-presentation/master/api/src/articles/md/Vs-Code-Intro.md)
 
 * [resources.md](https://raw.github.com/lewislwood/nfbcs-vscode-presentation/master/api/src/articles/md/resources.md )
 
