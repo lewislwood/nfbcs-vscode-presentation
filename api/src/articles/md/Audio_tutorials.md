@@ -22,7 +22,7 @@ Below are my original recordings back around 2020 when Vs Code was young as far 
 
 * [Pt 8 Emmet List items](https://raw.github.com/lewislwood/nfbcs-vscode-presentation/master/media/Pt_8_Emmet_List_items.mp3)
 
-* [Pt 9a a Emmet  Table with Column Row Headings](<https://raw.github.com/lewislwood/nfbcs-vscode-presentation/master/media/Pt_9a_a_Emmet>_Table_with_Column_Row_Headings.mp3)
+* [Pt 9a a Emmet  Table with Column Row Headings](https://raw.github.com/lewislwood/nfbcs-vscode-presentation/master/media/Pt_9a_a_Emmet_Table_with_Column_Row_Headings.mp3)
 
 * [Pt 9b Emmet Table ColSpan Headings](https://raw.github.com/lewislwood/nfbcs-vscode-presentation/master/media/Pt_9b_Emmet_Table_ColSpan_Headings.mp3)
 
