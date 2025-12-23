@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nfbcs-api
-        image: lewislwood/nfbcs-api:latest
+        image: lewislwood/nfbcs-api:1.0 
         imagePullPolicy: Always
         resources:
           limits:
